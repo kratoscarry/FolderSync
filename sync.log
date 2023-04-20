@@ -1,0 +1,38 @@
+19-04-2023 15:20:28 [INFO] ************************** Started syncing  >>  **************************
+19-04-2023 15:20:29 [INFO] ************************** Ended syncing  >>  **************************
+19-04-2023 15:27:16 [INFO] ************************** Started syncing C:\Users\be_ha\Desktop\folder1 >> C:\Users\be_ha\Desktop\folder2 **************************
+19-04-2023 15:27:16 [INFO] Synced file C:\Users\be_ha\Desktop\folder1\a blank text.txt >> C:\Users\be_ha\Desktop\folder2\a blank text.txt
+19-04-2023 15:27:16 [INFO] ************************** Ended syncing C:\Users\be_ha\Desktop\folder1 >> C:\Users\be_ha\Desktop\folder2 **************************
+19-04-2023 15:35:39 [INFO] ************************** Started syncing C:\Users\be_ha\Desktop\folder1 >> C:\Users\be_ha\Desktop\folder2 **************************
+19-04-2023 15:35:39 [INFO] ************************** Ended syncing C:\Users\be_ha\Desktop\folder1 >> C:\Users\be_ha\Desktop\folder2 **************************
+19-04-2023 15:36:23 [INFO] ************************** Started syncing C:\Users\be_ha\Desktop\folder1 >> C:\Users\be_ha\Desktop\folder2 **************************
+19-04-2023 15:36:23 [INFO] ************************** Ended syncing C:\Users\be_ha\Desktop\folder1 >> C:\Users\be_ha\Desktop\folder2 **************************
+19-04-2023 17:03:28 [INFO] ************************** Started syncing C:\Users\be_ha\Desktop\folder1 >> C:\Users\be_ha\Desktop\folder2 **************************
+19-04-2023 17:03:28 [INFO] Removed C:\Users\be_ha\Desktop\folder2\a blank text.txt
+19-04-2023 17:03:28 [INFO] Synced folder System.Array >> System.Array
+19-04-2023 17:03:28 [INFO] ************************** Ended syncing C:\Users\be_ha\Desktop\folder1 >> C:\Users\be_ha\Desktop\folder2 **************************
+19-04-2023 17:04:03 [INFO] ************************** Started syncing C:\Users\be_ha\Desktop\folder1 >> C:\Users\be_ha\Desktop\folder2 **************************
+19-04-2023 17:04:03 [INFO] ************************** Ended syncing C:\Users\be_ha\Desktop\folder1 >> C:\Users\be_ha\Desktop\folder2 **************************
+19-04-2023 17:05:18 [INFO] ************************** Started syncing C:\Users\be_ha\Desktop\folder1 >> C:\Users\be_ha\Desktop\folder2 **************************
+19-04-2023 17:05:18 [INFO] Synced file C:\Users\be_ha\Desktop\folder1\a test document.txt >> C:\Users\be_ha\Desktop\folder2\a test document.txt
+19-04-2023 17:05:18 [INFO] Synced file C:\Users\be_ha\Desktop\folder1\another test document.txt >> C:\Users\be_ha\Desktop\folder2\another test document.txt
+19-04-2023 17:05:18 [INFO] ************************** Ended syncing C:\Users\be_ha\Desktop\folder1 >> C:\Users\be_ha\Desktop\folder2 **************************
+19-04-2023 17:39:46 [INFO] ************************** Started syncing C:\Users\be_ha\Desktop\folder1 >> C:\Users\be_ha\Desktop\folder2 **************************
+19-04-2023 17:39:46 [INFO] Removed C:\Users\be_ha\Desktop\folder2\a test document.txt
+19-04-2023 17:39:46 [INFO] Removed C:\Users\be_ha\Desktop\folder2\another test document.txt
+19-04-2023 17:39:46 [INFO] Synced folder System.Array >> System.Array
+19-04-2023 17:39:46 [INFO] ************************** Ended syncing C:\Users\be_ha\Desktop\folder1 >> C:\Users\be_ha\Desktop\folder2 **************************
+19-04-2023 17:51:51 [INFO] ************************** Started syncing  >>  **************************
+19-04-2023 17:51:51 [INFO] ************************** Ended syncing  >>  **************************
+19-04-2023 17:52:06 [INFO] ************************** Started syncing C:\Users\be_ha\Desktop\folder1 >> C:\Users\be_ha\Desktop\folder2 **************************
+19-04-2023 17:52:06 [INFO] ************************** Ended syncing C:\Users\be_ha\Desktop\folder1 >> C:\Users\be_ha\Desktop\folder2 **************************
+19-04-2023 17:55:34 [INFO] ************************** Started syncing C:\Users\be_ha\Desktop\folder1 >> C:\Users\be_ha\Desktop\folder2 **************************
+19-04-2023 17:55:34 [INFO] ************************** Ended syncing C:\Users\be_ha\Desktop\folder1 >> C:\Users\be_ha\Desktop\folder2 **************************
+19-04-2023 17:56:21 [INFO] ************************** Started syncing C:\Users\be_ha\Desktop\folder1 >> C:\Users\be_ha\Desktop\folder2 **************************
+19-04-2023 17:56:22 [INFO] Synced file C:\Users\be_ha\Desktop\folder1\qdsa.txt >> C:\Users\be_ha\Desktop\folder2\qdsa.txt
+19-04-2023 17:56:22 [INFO] ************************** Ended syncing C:\Users\be_ha\Desktop\folder1 >> C:\Users\be_ha\Desktop\folder2 **************************
+19-04-2023 17:57:25 [INFO] ************************** Started syncing C:\Users\be_ha\Desktop\folder1 >> C:\Users\be_ha\Desktop\folder2 **************************
+19-04-2023 17:57:25 [INFO] Synced file C:\Users\be_ha\Desktop\folder1\qdsa.txt >> C:\Users\be_ha\Desktop\folder2\qdsa.txt
+19-04-2023 17:57:25 [INFO] ************************** Ended syncing C:\Users\be_ha\Desktop\folder1 >> C:\Users\be_ha\Desktop\folder2 **************************
+19-04-2023 18:53:15 [INFO] ************************** Started syncing C:\Users\be_ha\Desktop\folder1 >> C:\Users\be_ha\Desktop\folder2 **************************
+19-04-2023 18:53:15 [INFO] ************************** Ended syncing C:\Users\be_ha\Desktop\folder1 >> C:\Users\be_ha\Desktop\folder2 **************************
