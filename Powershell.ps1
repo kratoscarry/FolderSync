@@ -65,17 +65,29 @@ foreach ($difference in $differences) {
             else {
                 $hash_target_file = $null
             }
-            if ($hash_source_file -ne $hash_target_file) {
-                Write-Log "Synced file $source_object_path >> $target_object_path" "INFO" $log_file
+            if ( $hash_source_file -ne $hash_target_file ) {
+                Write-Log "Synced file $source_object_path >> $target_object_path"
                 Copy-Item -Path $source_object_path -Destination $target_object_path
             }
             else {
-                Write-Log "Same file, will not sync $source_object_path >> $target_object_path" "INFO" $log_file
+                Write-Log "Same file, will not sync $source_object_path >> $target_object_path"
             }
         }
         elseif (Test-Path -Path $target_object_path -PathType Container) {
-            Write-Log "Folder already exists, will not sync $source_object_path >> $target_object_path" "INFO" $log_file
+            Write-Log "Folder already exists, will not sync $source_object_path >> $target_object_path"
         }
         else {
-            Write-Log "Synced folder $source_object_path >> $target_object_path" "INFO" $log_file
-            Copy-Item -Path $source_object_path -Destination $target_object
+            Write-Log "Synced folder $source_object_path >> $target_object_path"
+            Copy-Item -Path $source_object_path -Destination $target_object_path
+        }        
+    }
+    elseif (($difference.SideIndicator -eq "=>") -and $cleanup_target -eq "TRUE") {
+        $target_object_path = $difference.InputObject.FullName
+        $source_object_path = $target_object_path.Replace($target_folder, $source_folder)
+        if (!(Test-Path -Path $source_object_path) -and (Test-Path -Path $target_object_path)) {
+            Remove-Item -Path $target_object_path -Recurse -Force
+            Write-Log "Removed $target_object_path"
+        }
+    }
+}
+Write-Log "************************** Ended syncing $source_folder >> $target_folder **************************"
