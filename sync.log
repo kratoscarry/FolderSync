@@ -36,3 +36,32 @@
 19-04-2023 17:57:25 [INFO] ************************** Ended syncing C:\Users\be_ha\Desktop\folder1 >> C:\Users\be_ha\Desktop\folder2 **************************
 19-04-2023 18:53:15 [INFO] ************************** Started syncing C:\Users\be_ha\Desktop\folder1 >> C:\Users\be_ha\Desktop\folder2 **************************
 19-04-2023 18:53:15 [INFO] ************************** Ended syncing C:\Users\be_ha\Desktop\folder1 >> C:\Users\be_ha\Desktop\folder2 **************************
+26-04-2023 15:56:28 [INFO] ************************** Started syncing C:\Users\be_ha\Desktop\folder1 >> C:\Users\be_ha\Desktop\folder2 **************************
+26-04-2023 15:56:28 [INFO] Synced folder C:\Users\be_ha\Desktop\folder1\test folder >> C:\Users\be_ha\Desktop\folder2\test folder
+26-04-2023 15:56:28 [INFO] Synced file C:\Users\be_ha\Desktop\folder1\qdsa.txt >> C:\Users\be_ha\Desktop\folder2\qdsa.txt
+26-04-2023 15:56:28 [INFO] Synced file C:\Users\be_ha\Desktop\folder1\test123.txt >> C:\Users\be_ha\Desktop\folder2\test123.txt
+26-04-2023 15:56:28 [INFO] ************************** Ended syncing C:\Users\be_ha\Desktop\folder1 >> C:\Users\be_ha\Desktop\folder2 **************************
+26-04-2023 15:58:15 [INFO] ************************** Started syncing C:\Users\be_ha\Desktop\folder1 >> C:\Users\be_ha\Desktop\folder2 **************************
+26-04-2023 15:58:15 [INFO] ************************** Ended syncing C:\Users\be_ha\Desktop\folder1 >> C:\Users\be_ha\Desktop\folder2 **************************
+26-04-2023 16:20:43 [INFO] ************************** Started syncing C:\Users\be_ha\Desktop\folder1 >> C:\Users\be_ha\Desktop\folder2 **************************
+26-04-2023 16:20:43 [INFO] ************************** Ended syncing C:\Users\be_ha\Desktop\folder1 >> C:\Users\be_ha\Desktop\folder2 **************************
+26-04-2023 16:21:55 [INFO] ************************** Started syncing C:\Users\be_ha\Desktop\folder1 >> C:\Users\be_ha\Desktop\folder2 **************************
+26-04-2023 16:21:55 [INFO] ************************** Ended syncing C:\Users\be_ha\Desktop\folder1 >> C:\Users\be_ha\Desktop\folder2 **************************
+26-04-2023 16:24:30 [INFO] ************************** Started syncing C:\Users\be_ha\Desktop\folder1 >> C:\Users\be_ha\Desktop\folder2 **************************
+26-04-2023 16:24:30 [INFO] ************************** Ended syncing C:\Users\be_ha\Desktop\folder1 >> C:\Users\be_ha\Desktop\folder2 **************************
+26-04-2023 16:27:00 [INFO] ************************** Started syncing C:\Users\be_ha\Desktop\folder1 >> C:\Users\be_ha\Desktop\folder2 **************************
+26-04-2023 16:27:00 [INFO] Synced file C:\Users\be_ha\Desktop\folder1\test.txt >> C:\Users\be_ha\Desktop\folder2\test.txt
+26-04-2023 16:27:00 [INFO] ************************** Ended syncing C:\Users\be_ha\Desktop\folder1 >> C:\Users\be_ha\Desktop\folder2 **************************
+26-04-2023 16:30:00 [INFO] *** Started syncing C:\Users\be_ha\Desktop\folder1 into C:\Users\be_ha\Desktop\folder2 ***
+26-04-2023 16:30:00 [INFO] *** Ended syncing C:\Users\be_ha\Desktop\folder1 into C:\Users\be_ha\Desktop\folder2 ***
+26-04-2023 16:31:01 [INFO] *** Started syncing C:\Users\be_ha\Desktop\folder1 into C:\Users\be_ha\Desktop\folder2 ***
+26-04-2023 16:31:01 [INFO] *** Ended syncing C:\Users\be_ha\Desktop\folder1 into C:\Users\be_ha\Desktop\folder2 ***
+26-04-2023 16:31:15 [INFO] *** Started syncing C:\Users\be_ha\Desktop\folder1 into C:\Users\be_ha\Desktop\folder2 ***
+26-04-2023 16:31:15 [INFO] Removed C:\Users\be_ha\Desktop\folder2\test.txt
+26-04-2023 16:31:15 [INFO] Removed C:\Users\be_ha\Desktop\folder2\test123.txt
+26-04-2023 16:31:15 [INFO] *** Ended syncing C:\Users\be_ha\Desktop\folder1 into C:\Users\be_ha\Desktop\folder2 ***
+26-04-2023 16:33:00 [INFO] *** Started syncing C:\Users\be_ha\Desktop\folder1 into C:\Users\be_ha\Desktop\folder2 ***
+26-04-2023 16:33:00 [INFO] Removed C:\Users\be_ha\Desktop\folder2\qdsa.txt from C:\Users\be_ha\Desktop\folder2
+26-04-2023 16:33:00 [INFO] *** Ended syncing C:\Users\be_ha\Desktop\folder1 into C:\Users\be_ha\Desktop\folder2 ***
+26-04-2023 16:35:57 [INFO] *** Started syncing C:\Users\be_ha\Desktop\folder1 into C:\Users\be_ha\Desktop\folder2 ***
+26-04-2023 16:35:57 [INFO] *** Ended syncing C:\Users\be_ha\Desktop\folder1 into C:\Users\be_ha\Desktop\folder2 ***

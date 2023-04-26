@@ -42,7 +42,7 @@ if ($null -eq $target_content) {
     $target_content = [array]
 }
 
-Write-Log "************************** Started syncing $source_folder >> $target_folder **************************"
+Write-Log "*** Started syncing $source_folder into $target_folder ***"
 
 $differences = Compare-Object -ReferenceObject $source_content -DifferenceObject $target_content
 
@@ -60,18 +60,19 @@ foreach ($difference in $differences) {
                 $hash_target_file = $null
             }
             if ( $hash_source_file -ne $hash_target_file ) {
-                Write-Log "Synced file $source_object_path >> $target_object_path"
+                Write-Log "Copied file $source_object_path into $target_object_path"
+		
                 Copy-Item -Path $source_object_path -Destination $target_object_path
             }
             else {
-                Write-Log "Same file, will not sync $source_object_path >> $target_object_path"
+                Write-Log "Same file, will not sync $source_object_path into $target_object_path"
             }
         }
         elseif (Test-Path -Path $target_object_path -PathType Container) {
-            Write-Log "Folder already exists, will not sync $source_object_path >> $target_object_path"
+            Write-Log "Folder already exists, will not sync $source_object_path into $target_object_path"
         }
         else {
-            Write-Log "Synced folder $source_object_path >> $target_object_path"
+            Write-Log "Synced folder $source_object_path into $target_object_path"
             Copy-Item -Path $source_object_path -Destination $target_object_path
         }        
     }
@@ -80,8 +81,8 @@ foreach ($difference in $differences) {
         $source_object_path = $target_object_path.Replace($target_folder, $source_folder)
         if (!(Test-Path -Path $source_object_path) -and (Test-Path -Path $target_object_path)) {
             Remove-Item -Path $target_object_path -Recurse -Force
-            Write-Log "Removed $target_object_path"
+            Write-Log "Removed $target_object_path from $target_folder"
         }
     }
 }
-Write-Log "************************** Ended syncing $source_folder >> $target_folder **************************"
+Write-Log "*** Ended syncing $source_folder into $target_folder ***"
